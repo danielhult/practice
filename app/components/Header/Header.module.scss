@@ -1,0 +1,41 @@
+.header {
+    &__wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 68px;
+
+        > * {
+            flex: 1;
+        }
+    }
+
+    &__navigation {
+        display: flex;
+        gap: 3.2rem;
+    }
+
+    &__logo {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__checkout {
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+
+.annoucementBar {
+    display: grid;
+    place-items: center;
+    background-color: #000f9f;
+    color: white;
+    height: 32px;
+    font-size: 14px;
+}
+
+.container {
+    max-width: 138.4rem;
+    margin-inline: auto;
+}
